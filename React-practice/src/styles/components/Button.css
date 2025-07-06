@@ -1,0 +1,10 @@
+.btn {
+    background-color: blue;
+    padding: 6px;
+    color: white;
+
+    &:hover {
+        background-color: white;
+        color: blue;
+    }
+}
