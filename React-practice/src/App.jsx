@@ -19,7 +19,6 @@ function App() {
             <p>練習</p>
             <Button />
           </>
-
         } />
         <Route path="/home" element={<Home />} />
         <Route path="/two" element={<Second />} />
