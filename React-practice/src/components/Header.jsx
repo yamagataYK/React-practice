@@ -1,15 +1,18 @@
+
+import { Link } from 'react-router-dom';
 import '../styles/components/Header.css';
-import '../assets/react.svg';
+import logo from '../assets/react.svg';
+
 
 function Header() {
     return (
         <header>
-            <img src="../assets/react.svg" alt="ロゴ" />
+            <img src={logo} alt="ロゴ" />
             <nav>
                 <ul>
-                    <li><a href="#">かいい</a></li>
-                    <li><a href="##">じゅおい</a></li>
-                    <li><a href="###">だだだあ</a></li>
+                    <li><Link to="/home">ホーム</Link></li>
+                    <li><Link to="/two">二個目</Link></li>
+                    <li><Link to="/three">三個目</Link></li>
                 </ul>
             </nav>
 
