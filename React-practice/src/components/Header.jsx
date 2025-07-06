@@ -7,7 +7,9 @@ import logo from '../assets/react.svg';
 function Header() {
     return (
         <header>
-            <img src={logo} alt="ロゴ" />
+            <Link to="/">
+                <img src={logo} alt="ロゴ" />
+            </Link>
             <nav>
                 <ul>
                     <li><Link to="/home">ホーム</Link></li>
